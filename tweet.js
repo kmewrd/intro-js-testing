@@ -13,6 +13,10 @@ class Tweet {
   retweet() {
     this.retweets += 1;
   }
+  reply(myReply) {
+    this.replies.push(myReply);
+    this.replyCount += 1;
+  }
 }
 
 module.exports = Tweet;
