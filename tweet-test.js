@@ -43,7 +43,7 @@ describe('Tweet', function() {
     assert.equal(tweet.retweets, 0);
   });
 
-  it.skip('starts with no replies', function() {
+  it('starts with no replies', function() {
     var tweet = new Tweet('@jwanliu', 'something amazing');
 
     assert.deepEqual(tweet.replies, []);
