@@ -49,7 +49,7 @@ describe('Tweet', function() {
     assert.deepEqual(tweet.replies, []);
   });
 
-  it.skip('starts with zero replies', function() {
+  it('starts with zero replies', function() {
     var tweet = new Tweet('@jwanliu', 'something amazing');
 
     assert.equal(tweet.replyCount, 0);
