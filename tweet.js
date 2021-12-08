@@ -7,6 +7,9 @@ class Tweet {
     this.replies = [];
     this.replyCount = 0;
   }
+  like() {
+    this.likes += 1;
+  }
 }
 
 module.exports = Tweet;

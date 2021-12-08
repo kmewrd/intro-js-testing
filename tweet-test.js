@@ -55,7 +55,7 @@ describe('Tweet', function() {
     assert.equal(tweet.replyCount, 0);
   });
 
-  it.skip('can be liked', function() {
+  it('can be liked', function() {
     var tweet = new Tweet('@LetaCodes', 'something brilliant');
 
     assert.equal(tweet.likes, 0);
@@ -63,7 +63,7 @@ describe('Tweet', function() {
     assert.equal(tweet.likes, 1);
   });
 
-  it.skip('can be liked many times!', function() {
+  it('can be liked many times!', function() {
     var tweet = new Tweet('@LetaCodes', 'something brilliant');
 
     assert.equal(tweet.likes, 0);
