@@ -10,6 +10,9 @@ class Tweet {
   like() {
     this.likes += 1;
   }
+  retweet() {
+    this.retweets += 1;
+  }
 }
 
 module.exports = Tweet;

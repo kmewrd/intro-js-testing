@@ -76,7 +76,7 @@ describe('Tweet', function() {
     assert.equal(tweet.likes, 5);
   });
 
-  it.skip('can be retweeted', function() {
+  it('can be retweeted', function() {
     var tweet = new Tweet('@jwanliu', 'something amazing');
 
     assert.equal(tweet.retweets, 0);
