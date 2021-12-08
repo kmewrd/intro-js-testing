@@ -37,7 +37,7 @@ describe('Tweet', function() {
     assert.equal(tweet.likes, 0)
   });
 
-  it.skip('starts with no retweets', function() {
+  it('starts with no retweets', function() {
     var tweet = new Tweet('@maxcell', 'something wonderful');
 
     assert.equal(tweet.retweets, 0);

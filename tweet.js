@@ -3,6 +3,7 @@ class Tweet {
     this.sender = sender;
     this.content = content;
     this.likes = 0;
+    this.retweets = 0;
   }
 }
 
