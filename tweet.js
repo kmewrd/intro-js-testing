@@ -1,6 +1,7 @@
 class Tweet {
-  constructor(sender) {
+  constructor(sender, content) {
     this.sender = sender;
+    this.content = content;
   }
 }
 

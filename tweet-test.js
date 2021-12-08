@@ -13,13 +13,13 @@ describe('Tweet', function() {
     assert.equal(tweet.sender, '@LetaCodes');
   });
 
-  it.skip('can have a different sender', function() {
+  it('can have a different sender', function() {
     var tweet = new Tweet('@ameseee', 'something else');
 
     assert.equal(tweet.sender, '@ameseee');
   });
 
-  it.skip('has content', function() {
+  it('has content', function() {
     var tweet = new Tweet('@LetaCodes', 'something brilliant');
 
     assert.equal(tweet.content, 'something brilliant');
