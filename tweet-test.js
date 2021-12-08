@@ -25,13 +25,13 @@ describe('Tweet', function() {
     assert.equal(tweet.content, 'something brilliant');
   });
 
-  it.skip('can have different content', function() {
+  it('can have different content', function() {
     var tweet = new Tweet('@ameseee', 'something else');
 
     assert.equal(tweet.content, 'something else');
   });
 
-  it.skip('starts with no likes', function() {
+  it('starts with no likes', function() {
     var tweet = new Tweet('@LetaCodes', 'something brilliant');
 
     assert.equal(tweet.likes, 0)
